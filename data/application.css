@@ -1,0 +1,45 @@
+.mainwindow {
+    background-color: alpha(#fafafa, 0.6);
+    border-radius: 0px 0px 5px 5px;
+}
+
+.view text selection {
+    color: shade(#a5b3bc, 1.88);
+    background-color: #a5b3bc;
+} 
+
+.view text {
+    background-color: alpha(#fff394, 1);
+} 
+
+.transparent {
+    background: transparent;
+}
+
+.view-slate text {
+    background-color: #a5b3bc;
+}
+.view-white text {
+    background-color: #fafafa;
+}
+.view-red text {
+    background-color: #ff8c82;
+}
+.view-orange text {
+    background-color: #FFB68C;
+}
+.view-yellow text {
+    background-color: #FBFD77;
+}
+.view-green text {
+    background-color: #d1ff82;
+}
+.view-blue text {
+    background-color: #8cd5ff;
+}
+.view-indigo text {
+    background-color: #aca9fd;
+}
+.view-cocoa text {
+    background-color: #a3907c;
+}

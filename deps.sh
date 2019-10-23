@@ -1,0 +1,1 @@
+sudo apt install libgtksourceview-3.0-dev libgee-0.8-dev libgtk-3-dev libgranite-dev fonts-firacode valac meson

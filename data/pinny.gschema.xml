@@ -1,0 +1,49 @@
+<schemalist> 
+    <schema id="org.enso.pinny" path="/org/enso/pinny/">
+		<child name="notes" schema="org.enso.pinny.note.settings"/>
+
+		<key name="enabled-notes" type="as">
+			<default>[]</default>
+			<summary>Array of names of active/enabled ntoes</summary>
+			<description>Contains information on the currently active notes</description>
+		</key>
+	</schema>
+
+    <schema id="org.enso.pinny.note.settings">
+        <key name="title" type="s">
+			<default>"note"</default>
+			<summary>Automatically pin an application if it seems useful to do</summary>
+			<description>If true, automatically pin applications when it seems useful to do.</description>
+		</key>
+		<key name="content" type="s">
+			<default>""</default>
+			<summary>Automatically pin an application if it seems useful to do</summary>
+			<description>If true, automatically pin applications when it seems useful to do.</description>
+		</key>
+		<key name="colour" type="s">
+			<default>"yellow"</default>
+			<summary>Automatically pin an application if it seems useful to do</summary>
+			<description>If true, automatically pin applications when it seems useful to do.</description>
+		</key>
+        <key name="x" type="d">
+			<default>0.0</default>
+			<summary>Automatically pin an application if it seems useful to do</summary>
+			<description>If true, automatically pin applications when it seems useful to do.</description>
+		</key>
+		<key name="y" type="d">
+			<default>0.0</default>
+			<summary>Only show windows from the current workspace</summary>
+			<description>If true, only show unpinned windows from the current workspace in addition to pinned items.</description>
+		</key>
+        <key name="width" type="i">
+			<default>330</default>
+			<summary>Automatically pin an application if it seems useful to do</summary>
+			<description>If true, automatically pin applications when it seems useful to do.</description>
+		</key>
+		<key name="height" type="i">
+			<default>270</default>
+			<summary>Only show windows from the current workspace</summary>
+			<description>If true, only show unpinned windows from the current workspace in addition to pinned items.</description>
+		</key>
+    </schema>
+</schemalist>

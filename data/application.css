@@ -18,28 +18,37 @@
 
 .view-slate text {
     background-color: #a5b3bc;
+    color: #6D6D6D;
 }
 .view-white text {
     background-color: #fafafa;
+    color: #6D6D6D;
 }
 .view-red text {
     background-color: #ff8c82;
+    color: #6D6D6D;
 }
 .view-orange text {
     background-color: #FFB68C;
+    color: #6D6D6D;
 }
 .view-yellow text {
     background-color: #FBFD77;
+    color: #6D6D6D;
 }
 .view-green text {
     background-color: #d1ff82;
+    color: #6D6D6D;
 }
 .view-blue text {
     background-color: #8cd5ff;
+    color: #6D6D6D;
 }
 .view-indigo text {
     background-color: #aca9fd;
+    color: #6D6D6D;
 }
 .view-cocoa text {
     background-color: #a3907c;
+    color: #6D6D6D;
 }
